@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+.theme-light {
+  background: #f1f5f9;
+  color: #20313e;
+}
+
+.theme-dark {
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+.theme-dark main section,
+.theme-dark .contact-box {
+  background: #1e293b;
+  color: #f8fafc;
+}
+
+.theme-dark main section h2,
+.theme-dark main section p,
+.theme-dark main section ul {
+  color: #f8fafc;
+}

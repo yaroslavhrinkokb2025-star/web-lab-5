@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме Ярослава Грінька</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .subtitle { letter-spacing: 0.04em; }
+    </style>
+</head>
+
+<body class="page-shell">
+
+    <header class="hero" id="top">
+        <h1>Ярослав Грінько</h1>
+        <p class="subtitle">Студент спеціальності «Кібербезпека»</p>
+        <button id="theme-toggle" type="button">Змінити тему</button>
+    </header>
+
+    <main class="content-grid">
+
+        <section class="panel" id="about">
+            <h2>Про мене</h2>
+            <p>
+                Навчаюся у Національному університеті «Львівська політехніка».
+                Цікавлюся кібербезпекою, вебпрограмуванням та інформаційними технологіями.
+            </p>
+        </section>
+
+        <section class="panel">
+            <h2>Освіта</h2>
+            <ul>
+                <li>Національний університет «Львівська політехніка»</li>
+                <li>Спеціальність: Кібербезпека</li>
+                <li>Група: КБ-209</li>
+            </ul>
+        </section>
+
+        <section class="panel">
+            <h2>Навички</h2>
+            <ul>
+                <li>HTML</li>
+                <li>Python</li>
+                <li>Git та GitHub</li>
+                <li>Основи комп'ютерних мереж</li>
+                <li>Основи кібербезпеки</li>
+            </ul>
+        </section>
+
+        <section class="panel">
+            <h2>Досвід та інтереси</h2>
+            <p>
+                Виконую навчальні проєкти з програмування, комп'ютерних мереж
+                та вебтехнологій.
+            </p>
+            <p>
+                Мої інтереси: шахи, технології та інформаційна безпека.
+            </p>
+        </section>
+
+        <section class="panel" id="contact">
+            <h2>Контакти</h2>
+            <p>
+                GitHub:
+                <a href="https://github.com/yaroslavhrinkokb2025-star">
+                    Мій GitHub
+                </a>
+            </p>
+        </section>
+
+        <section class="panel" id="reviews">
+            <h2>Відгуки роботодавців</h2>
+            <div id="reviews-list"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p style="font-weight: 600">© 2026 Ярослав Грінько</p>
+        <p>Дані з localStorage:</p>
+        <ul id="storage-info"></ul>
+    </footer>
+
+    <div id="feedback-modal" class="modal">
+        <div class="modal-content">
+            <button id="feedback-close" type="button">Закрити</button>
+            <h2>Зворотний зв’язок</h2>
+            <form action="https://formspree.io/f/mwllwany" method="POST">
+                <label>Ім’я <input type="text" name="name"></label>
+                <label>Email <input type="email" name="email"></label>
+                <label>Номер телефону <input type="tel" name="phone"></label>
+                <label>Повідомлення <textarea name="message"></textarea></label>
+                <button type="submit">Надіслати</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
