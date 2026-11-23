@@ -1,2 +1,4 @@
 lab_2_react/node_modules/
 lab_2_react/dist/
+.vercel
+.env*
